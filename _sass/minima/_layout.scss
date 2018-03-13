@@ -20,7 +20,7 @@
 
 .site-title {
   @include relative-font-size(1.5);
-  color: $text-color;
+  color: $header-color;
   font-weight: 600;
   line-height: $base-line-height * $base-font-size * 2.25;
   letter-spacing: 1px;
@@ -28,7 +28,7 @@
   float: left;
 
   &:visited {
-    color: $text-color;
+    color: $header-color;
   }
 }
 
@@ -50,7 +50,7 @@
     line-height: $base-line-height;
 
     &.current-page {
-      color: $text-color;
+      color: $header-color;
       font-weight: 500;
     }
 
@@ -187,6 +187,31 @@
 
 
 /**
+ * Home content
+ */
+ .home {
+  p {
+    @include relative-font-size(1.1);
+    text-align: center;
+  }
+}
+
+
+
+/**
+ * Intro content
+ */
+.page-intro {
+  @include relative-font-size(2.4);
+  padding: 15% 10px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+
+
+/**
  * Page content
  */
 .page-content {
@@ -223,6 +248,7 @@
  */
 .post-header {
   margin-bottom: $spacing-unit;
+  text-align: center;
 }
 
 .post-title {
