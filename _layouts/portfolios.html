@@ -10,7 +10,7 @@ layout: default
   {{ content }}
 
   <div class="portfolio-col-wrapper">
-    {% for portfolio in site.portfolio %}
+    {% for portfolio in site.portfolio reversed %}
     <div class="portfolio-col portfolio-col-6">
 
       <a class="portfolio-card" href="{{ portfolio.url | relative_url }}">
