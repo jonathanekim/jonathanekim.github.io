@@ -126,9 +126,20 @@
   a {
     color: $grey-color;
     transition: color .5s;
+    .icon>svg {
+      path {
+        fill: $grey-color;
+        transition: fill .5s;
+      }
+    }
     &:hover {
       color: $brand-color;
       text-decoration: none;
+      .icon>svg {
+        path {
+          fill: $brand-color;
+        }
+      }
     }
   }
 }
@@ -149,9 +160,14 @@
   margin-top: $spacing-unit / 2;
 }
 
-.footer-col-1,
-.footer-col-2,
 .footer-col-3 {
+  display: inline-block;
+  vertical-align: top;
+  width: -webkit-calc(25% - (#{$spacing-unit} / 2));
+  width: calc(25% - (#{$spacing-unit} / 2));
+}
+
+.footer-col-4 {
   display: inline-block;
   vertical-align: top;
   width: -webkit-calc(33% - (#{$spacing-unit} / 2));
