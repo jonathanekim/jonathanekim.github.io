@@ -1,1 +1,5 @@
-<a href="mailto:{{ include.email }}" target="_blank"><span class="icon icon--email">{% include icon-email.svg %}</span><span class="email">{{ include.email }}</span></a>
+<a href="mailto:{{ include.email }}" target="_blank">
+  <!-- Icon is from https://iconmonstr.com -->
+  <span class="icon icon--email">{% include icon-email.svg %}</span>
+  <span class="email">{{ include.email }}</span>
+</a>
