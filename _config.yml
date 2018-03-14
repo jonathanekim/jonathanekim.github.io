@@ -24,8 +24,13 @@ linkedin_username:  jonathanekim
 instagram_username:  jkjkjkyay
 header_pages:
   - resume/resume.md
-  - portfolio/portfolio.md
+  - portfolios.md
   - posts.md
+
+# Collections
+collections:
+  portfolio:
+    output: true
 
 # Build settings
 markdown: kramdown

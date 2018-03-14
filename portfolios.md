@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: portfolios
 title: Portfolio
 permalink: /portfolio/
 ---
 
-Coming soon!
+Under construction.
