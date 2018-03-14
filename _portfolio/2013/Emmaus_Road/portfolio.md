@@ -1,8 +1,8 @@
 ---
 layout: portfolio
 title: Emmaus Road
-date:   2014-05-11 00:00:00 -0700
-permalink: /portfolio/2013/10/30/emmaus-road/
+date:   2013-08-23 00:00:00 -0700
+permalink: /portfolio/2013/08/23/emmaus-road/
 image_path: /portfolio/2013/Emmaus_Road/Emmaus-Logo.png
 categories: graphic-design ui-design web-development
 ---
@@ -13,12 +13,12 @@ I designed a logo for Emmaus Road, a local church. Initial iterations of the log
 
 ![Image]({{ page.image_path | relative_path }}){: .image-centered-small }
 
-I also designed two headers based on the logo:
+I also designed two headers based on the logo.
 
 ![Image]({{ "/portfolio/2013/Emmaus_Road/Emmaus Website Header_white.png" | relative_path }}){: .image-centered-full }
 
 ![Image]({{ "/portfolio/2013/Emmaus_Road/KCCE.png" | relative_path }}){: .image-centered-medium }
 
-Finally, I designed and developed a website and blog for the church using WordPress and my own theme: [http://emmauscornell.org](http://emmauscornell.org).
+Finally, I designed and developed a website ([http://emmauscornell.org](http://emmauscornell.org)) for the church using WordPress and my own theme.
 
 ![Image]({{ "/portfolio/2013/Emmaus_Road/Emmaus Site.png" | relative_path }}){: .image-centered-full }
