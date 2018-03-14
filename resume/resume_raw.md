@@ -8,7 +8,7 @@
 <h4 class="float-right">2017 — Present</h4>
 <div class="float-clear"></div>
 
-* Finding newer and more expressive ways to communicate in apps like Allo.
+* Finding newer and more expressive ways to communicate.
 
 ### Apple, Inc
 
