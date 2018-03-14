@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Developer. Designer. Philomath.
+intro: Developer. Designer. Philomath.
 ---
 
 I love working on all aspects of ambitious tech projects.
