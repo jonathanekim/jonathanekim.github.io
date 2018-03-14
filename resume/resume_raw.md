@@ -1,6 +1,6 @@
 <!-- Edits to this file should also be done in the PDF and LinkedIn. -->
 
-**[View as PDF]({{"media/Jonathan Kim Resume 2017a.pdf" | relative_url}}).**
+**[View as PDF]({{"Jonathan Kim Resume 2017a.pdf" | relative_url}}).**
 
 ## Experience
 

@@ -5,4 +5,4 @@ permalink: /google-resume/
 noindex: true
 ---
 
-{% include_relative media/resume_raw.md %}
+{% include_relative resume_raw.md %}

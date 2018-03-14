@@ -4,4 +4,4 @@ title: Resume
 permalink: /resume/
 ---
 
-{% include_relative media/resume_raw.md %}
+{% include_relative resume_raw.md %}

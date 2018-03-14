@@ -23,9 +23,9 @@ github_username:  jonathanekim
 linkedin_username:  jonathanekim
 instagram_username:  jkjkjkyay
 header_pages:
-  - work.md
+  - resume/resume.md
+  - portfolio/portfolio.md
   - posts.md
-  - resume.md
 
 # Build settings
 markdown: kramdown
