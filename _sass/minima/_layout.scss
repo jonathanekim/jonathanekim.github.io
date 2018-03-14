@@ -399,6 +399,13 @@
       @include relative-font-size(1.0);
     }
   }
+  h5 {
+    @include relative-font-size(1.0);
+    font-weight: 500;
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.0);
+    }
+  }
   .float-left {
     float: left;
   }
