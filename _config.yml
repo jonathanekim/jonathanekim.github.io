@@ -22,6 +22,8 @@ url: "https://jonathanekim.github.io" # the base hostname & protocol for your si
 github_username:  jonathanekim
 linkedin_username:  jonathanekim
 header_pages:
+  - work.md
+  - posts.md
   - resume.md
 
 # Build settings
