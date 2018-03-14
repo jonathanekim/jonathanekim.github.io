@@ -17,4 +17,4 @@ I then implemented the design using Phonegap and Cordova, a cross-OS mobile app 
 
 ![Image]({{ "/portfolio/2013/Sunn/Sunn Wireframe2.png" | relative_path }}){: .image-centered-full }
 
-![Image]({{ page.image_path | relative_path }}){: .image-centered-full }
+![Image]({{ "/portfolio/2013/Sunn/Sunn Dial 7-7-2013-12.png" | relative_path }}){: .image-centered-full }

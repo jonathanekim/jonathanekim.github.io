@@ -11,7 +11,7 @@ I designed a logo for Emmaus Road, a local church. Initial iterations of the log
 
 > "Did not our hearts burn within us while he talked to us on the [Emmaus] road, while he opened to us the Scriptures?"
 
-![Image]({{ page.image_path | relative_path }}){: .image-centered-small }
+![Image]({{ "/portfolio/2013/Emmaus_Road/Emmaus-Logo.png" | relative_path }}){: .image-centered-small }
 
 I also designed two headers based on the logo.
 

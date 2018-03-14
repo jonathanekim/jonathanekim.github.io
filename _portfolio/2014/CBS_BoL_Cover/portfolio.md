@@ -9,4 +9,4 @@ categories: graphic-design
 
 I designed a cover for CBS Bread of Life, a Cornell student group's quarterly newsletter.
 
-![Image]({{ page.image_path | relative_path }}){: .image-centered-large }
+![Image]({{ "/portfolio/2014/CBS_BoL_Cover/BoL Cover.png" | relative_path }}){: .image-centered-large }
