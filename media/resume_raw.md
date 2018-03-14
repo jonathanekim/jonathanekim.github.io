@@ -103,6 +103,13 @@
 
 ## Activities
 
+<h4 class="float-left">Competitive Overwatch</h4>
+<h4 class="float-right">2017 — Present</h4>
+<div class="float-clear"></div>
+
+* Maintained the rank of Master (top 3%) since season 7.
+* Helped start a Google team in the [After Hours Gaming League](https://www.afterhoursgaming.tv), a corporate esports league.
+
 <h4 class="float-left">CoderDojo Mentor</h4>
 <h4 class="float-right">2016 — Present</h4>
 <div class="float-clear"></div>
