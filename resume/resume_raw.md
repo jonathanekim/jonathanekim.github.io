@@ -110,7 +110,7 @@
 <div class="float-clear"></div>
 
 * Maintained the rank of Master (top 3%) since season 7.
-* Helped start a Google team in the [After Hours Gaming League](https://www.afterhoursgaming.tv), a corporate esports league.
+* Participated a Google team in the [After Hours Gaming League](https://www.afterhoursgaming.tv), a corporate esports league.
 * Organized 60 Googlers into 7 [After Hours Gaming League](https://www.afterhoursgaming.tv) teams.
 
 <h4 class="float-left">CoderDojo Mentor</h4>
