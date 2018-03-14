@@ -295,6 +295,86 @@
 
 
 /**
+ * Portfolio
+ */
+
+.portfolio-col-wrapper {
+  // @include relative-font-size(0.9375);
+  text-align: justify;
+  @extend %clearfix;
+}
+
+.portfolio-card {
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.portfolio-overlay {
+  padding: 20% 20px;
+  text-align: center;
+  background-image: radial-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6));
+  opacity: 0;
+  transition: opacity .5s;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.portfolio-card-title {
+  color: $brand-color;
+}
+
+.portfolio-card-subtitle {
+  color: $grey-color-light;
+}
+
+.portfolio-card-image {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.portfolio-col-3 {
+  display: inline-block;
+  vertical-align: top;
+  width: -webkit-calc(25% - (#{$spacing-unit} / 2));
+  width: calc(25% - (#{$spacing-unit} / 2));
+}
+
+.portfolio-col-4 {
+  display: inline-block;
+  vertical-align: top;
+  width: -webkit-calc(33% - (#{$spacing-unit} / 2));
+  width: calc(33% - (#{$spacing-unit} / 2));
+}
+
+.portfolio-col-6 {
+  display: inline-block;
+  vertical-align: top;
+  width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+  width: calc(50% - (#{$spacing-unit} / 2));
+}
+
+@include media-query($on-laptop) {
+  .portfolio-col-1,
+  .portfolio-col-2,
+  .portfolio-col-3 {
+    width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+    width: calc(50% - (#{$spacing-unit} / 2));
+  }
+}
+
+@include media-query($on-palm) {
+  .portfolio-col {
+    float: none;
+    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+    width: calc(100% - (#{$spacing-unit} / 2));
+  }
+}
+
+
+/**
  * Posts
  */
 
