@@ -1,3 +1,5 @@
+**[View as PDF]({{"media/Jonathan Kim Resume 2017a.pdf" | relative_url}}).**
+
 ## Experience
 
 ### Google, Inc
