@@ -4,4 +4,4 @@ title: Portfolio
 permalink: /portfolio/
 ---
 
-Under construction.
+**[View as PDF]({{"/portfolio/Jonathan Kim Portfolio 2013.pdf" | relative_url}}).**
