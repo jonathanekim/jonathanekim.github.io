@@ -1,0 +1,4 @@
+# Site settings
+email: jonathankim@google.com
+baseurl: "/www" # the subpath of your site, e.g. /blog
+url: "https://jonathankim.users.x20web.corp.google.com" # the base hostname & protocol for your site, e.g. http://example.com

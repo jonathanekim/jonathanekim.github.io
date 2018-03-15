@@ -21,3 +21,9 @@ bundle install
 ```bash
 bundle exec jekyll serve
 ```
+
+## Building for Google
+
+```bash
+bundle exec jekyll build --config _config.yml,_config_google.yml
+```
