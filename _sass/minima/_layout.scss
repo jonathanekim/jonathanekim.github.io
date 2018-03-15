@@ -198,6 +198,35 @@
 
 
 /**
+ * Images
+ */
+
+.image-centered-small {
+  width: 200px;
+  margin: 6% auto;
+  display: block;
+}
+
+.image-centered-medium {
+  width: 50%;
+  margin: 6% auto;
+  display: block;
+}
+
+.image-centered-large {
+  width: 80%;
+  margin: 6% auto;
+  display: block;
+}
+
+.image-centered-full {
+  width: 100%;
+  margin: 6% 0;
+  display: block;
+}
+
+
+/**
  * Home content
  */
 
@@ -277,24 +306,20 @@
 
 
 /**
- * Portfolio
+ * Portfolio Card content
  */
 
-.portfolio-col-wrapper {
-  // @include relative-font-size(0.9375);
-  text-align: justify;
-  @extend %clearfix;
-}
-
 .portfolio-card {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   a:hover {
     text-decoration: none;
   }
 }
 
-.portfolio-overlay {
-  padding: 20% 20px;
-  text-align: center;
+.portfolio-card-overlay {
+  position: relative;
   background-image: radial-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6));
   opacity: 0;
   transition: opacity .5s;
@@ -303,18 +328,40 @@
   }
 }
 
-.portfolio-card-title {
-  color: $brand-color;
+.portfolio-card-overlay-centered {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  .portfolio-card-title {
+    color: $brand-color;
+    text-align: center;
+  }
+  .portfolio-card-subtitle {
+    color: $grey-color-light;
+    text-align: center;
+  }
 }
 
-.portfolio-card-subtitle {
-  color: $grey-color-light;
+
+/**
+ * Portfolio content
+ */
+
+.portfolio {
+  .portfolio-card {
+    margin: 5px;
+  }
+  .portfolio-card-overlay {
+    // padding: 20% 20px;
+    height: 200px;
+  }
 }
 
-.portfolio-card-image {
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+.portfolio-col-wrapper {
+  // @include relative-font-size(0.9375);
+  text-align: center;
+  @extend %clearfix;
 }
 
 .portfolio-col-3 {
@@ -420,31 +467,11 @@
   }
 }
 
-
-/**
- * Images
- */
-
-.image-centered-small {
-  width: 200px;
-  margin: 6% auto;
-  display: block;
-}
-
-.image-centered-medium {
-  width: 50%;
-  margin: 6% auto;
-  display: block;
-}
-
-.image-centered-large {
-  width: 80%;
-  margin: 6% auto;
-  display: block;
-}
-
-.image-centered-full {
-  width: 100%;
-  margin: 6% 0;
-  display: block;
+.post {
+  .portfolio-card {
+    margin: $spacing-unit 10%;
+  }
+  .portfolio-card-overlay {
+    height: 200px;
+  }
 }

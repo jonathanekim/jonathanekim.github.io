@@ -26,6 +26,9 @@
 <h4 class="float-right">2013 — 2015</h4>
 <div class="float-clear"></div>
 
+{% assign portfolio_the_simple_group = site.portfolio | where: "permalink", "/portfolio/2013/03/29/the-simple-group/" | first %}
+{% include portfolio-card.html portfolio=portfolio_the_simple_group %}
+
 * Cofounded The Simple Group, which manages a technology hedge fund that aids entrepreneurs in third world countries through microfinance loans.
 * Worked with a general partner to raise over $1 million for the fund.
 * Built Automa™, a high-frequency trading engine that parses loan information, conducts due diligence using machine learning algorithms, and invests capital from the fund in low risk, high social impact loans. With this technology, the fund has maintained not only a double digit annualized return but also a 0% default rate.
@@ -41,11 +44,14 @@
 * Worked extensively with the brand new Yosemite/iOS 8 app extensions API prior to its release to external developers, making the second app extension ever created and identifying blocking bugs.
 * Participated in post-Yosemite feature brainstorming and mocked up new calendaring features.
 
-### Zunn Labs, Inc
+### Sunn Labs, Inc
 
 <h4 class="float-left">UX Designer and Mobile Developer (Ithaca, NY)</h4>
 <h4 class="float-right">Summer 2013</h4>
 <div class="float-clear"></div>
+
+{% assign portfolio_sunn = site.portfolio | where: "permalink", "/portfolio/2013/07/08/sunn/" | first %}
+{% include portfolio-card.html portfolio=portfolio_sunn %}
 
 * Designed the user interface and overall experience of controlling an energy-efficient, health-conscious light bulb that brings natural light indoors by matching the color temperature of the sun.
 * Implemented the design as a hybrid iOS/Android mobile application using Phonegap/Cordova.
@@ -63,6 +69,9 @@
 <h4 class="float-left">Ministry and Tech Coordinator (Ithaca, NY)</h4>
 <h4 class="float-right">2012 — 2013</h4>
 <div class="float-clear"></div>
+
+{% assign portfolio_emmaus = site.portfolio | where: "permalink", "/portfolio/2013/08/23/emmaus-road/" | first %}
+{% include portfolio-card.html portfolio=portfolio_emmaus %}
 
 * Coordinated multiple fellowship ministries as a founding member of the leadership team.
 * Created church website ([http://emmauscornell.org](http://emmauscornell.org)) and other electronic resources.
