@@ -12,23 +12,7 @@ layout: default
   <div class="portfolio-col-wrapper">
     {% for portfolio in site.portfolio reversed %}
     <div class="portfolio-col portfolio-col-6">
-
-      <a class="portfolio-card" href="{{ portfolio.url | relative_url }}">
-        <div class="portfolio-card-image" style="background-image: url('{{ portfolio.image_path | relative_url }}');">
-          <div class="portfolio-overlay">
-            <h2 class="portfolio-card-title">{{ portfolio.title | escape }}</h2>
-            <p class="portfolio-card-subtitle">
-              <time datetime="{{ page.date | date_to_xmlschema }}">
-                {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %} {{ portfolio.date | date: date_format }}
-              </time>
-              {% if portfolio.categories.size > 0 %}
-              <span itemprop="name">&nbsp;&nbsp;•&nbsp;&nbsp;{{ portfolio.categories | join: " | " }}</span>
-              {% endif %}
-            </p>
-          </div>
-        </div>
-      </a>
-      
+      {% include portfolio-card.html portfolio=portfolio %}
     </div>
     {% endfor %}
   </div>

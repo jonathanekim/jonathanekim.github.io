@@ -1,0 +1,17 @@
+<div class="portfolio-card">
+<a href="{{ include.portfolio.url | relative_url }}">
+  <div class="portfolio-card-image" style="background-image: url('{{ include.portfolio.image_path | relative_url }}');">
+    <div class="portfolio-overlay">
+      <h2 class="portfolio-card-title">{{ include.portfolio.title | escape }}</h2>
+      <p class="portfolio-card-subtitle">
+        <time datetime="{{ include.portfolio.date | date_to_xmlschema }}">
+          {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %} {{ include.portfolio.date | date: date_format }}
+        </time>
+        {% if include.portfolio.categories.size > 0 %}
+        <span itemprop="name">&nbsp;&nbsp;•&nbsp;&nbsp;{{ include.portfolio.categories | join: " | " }}</span>
+        {% endif %}
+      </p>
+    </div>
+  </div>
+</a>
+</div>
