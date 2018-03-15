@@ -140,4 +140,5 @@
 <div class="float-clear"></div>
 
 * Created an EVE Online gaming strategy blog ([Yarrbear Tales](https://00sage00.wordpress.com/)) that averaged 10,000 views/month.
+* Featured on [Massively, a gaming sister site to Engadget](https://www.engadget.com/2015/02/03/this-is-massively-and-farewell-to-it/).
 * Founded the [#tweetfleet](https://twitter.com/hashtag/tweetfleet), the first active EVE Online Twitter community with 1,000+ members.
