@@ -3,7 +3,7 @@ layout: portfolio
 title: Sunn
 date:   2013-07-08 00:00:00 -0700
 permalink: /portfolio/2013/07/08/sunn/
-image_path: /portfolio/2013/Sunn/Sunn Dial 7-7-2013-12.png
+image_path: /portfolio/2013/Sunn/portfolio-card.png
 categories: graphic-design ui-design ios-development
 ---
 
