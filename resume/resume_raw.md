@@ -44,7 +44,7 @@
 * Worked extensively with the brand new Yosemite/iOS 8 app extensions API prior to its release to external developers, making the second app extension ever created and identifying blocking bugs.
 * Participated in post-Yosemite feature brainstorming and mocked up new calendaring features.
 
-### Sunn Labs, Inc
+### Sunn
 
 <h4 class="float-left">UX Designer and Mobile Developer (Ithaca, NY)</h4>
 <h4 class="float-right">Summer 2013</h4>
@@ -132,5 +132,12 @@
 <h4 class="float-right">1999 – Present</h4>
 <div class="float-clear"></div>
 
-* San Jose Youth Symphony (2004 – 2011), Cornell Symphony Orchestra (2011 – 2012), chamber groups (2012 – 2014), Emmaus Road church praise team (2012 – 2014).
+* San Jose Youth Symphony (2004 – 2011), Cornell Symphony Orchestra (2011 – 2012), chamber groups (2012 – 2014), Emmaus Road praise team (2012 – 2014).
 * Formed a band, toured in Florida and California, and recorded originals and covers (Summer 2013).
+
+<h4 class="float-left">EVE Online Blogger</h4>
+<h4 class="float-right">2009 – 2011</h4>
+<div class="float-clear"></div>
+
+* Created an EVE Online gaming strategy blog ([Yarrbear Tales](https://00sage00.wordpress.com/)) that averaged 10,000 views/month.
+* Founded the [#tweetfleet](https://twitter.com/hashtag/tweetfleet), the first active EVE Online Twitter community with 1,000+ members.

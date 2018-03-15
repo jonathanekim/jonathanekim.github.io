@@ -462,8 +462,9 @@
   }
   .float-right {
     float: right;
-    @include media-query($on-laptop) {
+    @include media-query($on-palm) {
       float: left;
+      width: 100%;
     }
   }
   .float-clear {

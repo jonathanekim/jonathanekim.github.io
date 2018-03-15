@@ -11,7 +11,7 @@
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
     <a class="site-title" href="{{ "/" | relative_url }}">
-      <img class="site-logo" src="{{ "/assets/site-logo.png" | relative_url }}">
+      <img class="site-logo" src="{{ "/assets/site-logo.png" | relative_url }}" alt="">
       {{ site.title | upcase }}
     </a>
   
