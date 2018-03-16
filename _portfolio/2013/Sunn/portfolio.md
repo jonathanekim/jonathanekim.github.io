@@ -13,6 +13,8 @@ Alongside [Kelton Minor](https://www.linkedin.com/in/kelton-minor-86a0b5106/), I
 
 I then implemented the design using Phonegap and Cordova, a cross-OS mobile app framework.
 
+![Image]({{ "/portfolio/2013/Sunn/Design Photo.jpg" | relative_path }}){: .image-centered-full }
+
 ![Image]({{ "/portfolio/2013/Sunn/Sunn Wireframe1.png" | relative_path }}){: .image-centered-full }
 
 ![Image]({{ "/portfolio/2013/Sunn/Sunn Wireframe2.png" | relative_path }}){: .image-centered-full }
