@@ -9,6 +9,8 @@ categories: graphic-design ui-design web-development
 
 I cofounded [The Simple Group](http://thesimplegroup.org/), a company that sought to maximize social impact investing and a reasonable capital appreciation with limited risk by funding microfinance loans in developing countries.
 
+## Branding
+
 Finalizing a color palette was relatively straightforward:
 
 ![Image]({{ "/portfolio/2013/The-Simple-Group/Palette.png" | relative_path }}){: .image-centered-large }
@@ -21,6 +23,8 @@ However, the final logo was much simpler. It used the initials of the company:
 
 ![Image]({{ "/portfolio/2013/The-Simple-Group/Logo3.png" | relative_path }}){: .image-centered-medium }
 
+## Business Card
+
 Using the logo, I created various business card designs:
 
 ![Image]({{ "/portfolio/2013/The-Simple-Group/CardDesign_All.png" | relative_path }}){: .image-centered-large }
@@ -29,11 +33,15 @@ The final business cards were printed on thick black cards with embossed silver 
 
 ![Image]({{ "/portfolio/2013/The-Simple-Group/CardDesign_Final.jpg" | relative_path }}){: .image-centered-large }
 
+## Other Logos
+
 I also made logos for Automa™, our algorithmic, high speed purchasing system. Automa™ was designed to screen for microfinance loans in 64 countries in real time and purchase high impact, low-risk loans.
 
 ![Image]({{ "/portfolio/2013/The-Simple-Group/Automa.png" | relative_path }}){: .image-centered-medium }
 
 ![Image]({{ "/portfolio/2013/The-Simple-Group/Automa_fund.png" | relative_path }}){: .image-centered-medium }
+
+## Website
 
 After creating the TSG brand, I then designed and developed The Simple Group website ([http://thesimplegroup.org/](http://thesimplegroup.org/)) and realtime investor dashboard using Node.js and Angular.js.
 
@@ -43,7 +51,9 @@ After creating the TSG brand, I then designed and developed The Simple Group web
 
 ![Image]({{ "/portfolio/2013/The-Simple-Group/Executive-Dashboard-MacbookPro.png" | relative_path }}){: .image-centered-full }
 
-I later completely redesigned and rebranded The Simple Group. The old design, although very friendly, didn't reflect the shift in the company from a fledgling startup to a mature investment fund. To help communicate The Simple Group's goal as a helping hand to entrepreneurs in developing countries, the new logo evokes the image of [cherubim](https://en.wikipedia.org/wiki/Cherub), heavenly guardians over the Garden of Eden.
+## Rebrand
+
+In 2015, I completely redesigned and rebranded The Simple Group. The old design, although very friendly, didn't reflect the shift in the company from a fledgling startup to a mature investment fund. To help communicate The Simple Group's goal as a helping hand to entrepreneurs in developing countries, the new logo evokes the image of [cherubim](https://en.wikipedia.org/wiki/Cherub), heavenly guardians over the Garden of Eden.
 
 ![Image]({{ "/portfolio/2013/The-Simple-Group/Logo4.png" | relative_path }}){: .image-centered-medium }
 
