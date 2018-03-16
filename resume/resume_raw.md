@@ -26,7 +26,7 @@
 <h4 class="float-right">2013 — 2015</h4>
 <div class="float-clear"></div>
 
-{% assign portfolio_the_simple_group = site.portfolio | where: "permalink", "/portfolio/2013/03/29/the-simple-group/" | first %}
+{% assign portfolio_the_simple_group = site.portfolio | where: "permalink", "/portfolio/2015/03/29/the-simple-group/" | first %}
 {% include portfolio-card.html portfolio=portfolio_the_simple_group %}
 
 * Cofounded The Simple Group, which manages a technology hedge fund that aids entrepreneurs in third world countries through microfinance loans.
