@@ -27,40 +27,87 @@
  * Page
  */
 
-.page-content {
-  padding: $spacing-unit 0;
+.page-header {
+  margin-bottom: $spacing-unit;
+  text-align: center;
 }
 
-.page-heading {
-  @include relative-font-size(1.25);
-}
-
-.post-list {
-  margin-left: 0;
-  list-style: none;
-  >li {
-    margin-bottom: $spacing-unit;
+.page-title {
+  @include relative-font-size(2.625);
+  letter-spacing: -1px;
+  line-height: 1;
+  @include media-query($on-laptop) {
+    @include relative-font-size(2.25);
   }
 }
 
-.post-meta {
+.page-meta {
   font-size: $small-font-size;
   color: $grey-color;
 }
 
-.post-link {
-  display: block;
-  @include relative-font-size(1.5);
+.page-content {
+  margin: $spacing-unit;
+  h2 {
+    @include relative-font-size(1.8);
+    color: $brand-color;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.6);
+    }
+  }
+  h3 {
+    @include relative-font-size(1.35);
+    font-weight: 500;
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.375);
+    }
+  }
+  h4 {
+    @include relative-font-size(1.1);
+    font-style: italic;
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.0);
+    }
+  }
+  h5 {
+    @include relative-font-size(1.0);
+    font-weight: 500;
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.0);
+    }
+  }
+  .float-left {
+    float: left;
+  }
+  .float-right {
+    float: right;
+    @include media-query($on-palm) {
+      float: left;
+      width: 100%;
+    }
+  }
+  .float-clear {
+    clear: both;
+  }
+  .portfolio-card {
+    margin: $spacing-unit 10%;
+  }
+  .portfolio-card-overlay {
+    height: 200px;
+  }
 }
 
 
 /**
- * Portfolio
+ * Portfolios
  */
 
-.portfolio {
+.portfolios {
   .portfolio-card {
     margin: 5px;
+    visibility: hidden; // Start hidden to avoid ScrollReveal flickering.
   }
   .portfolio-card-overlay {
     height: 200px;
@@ -113,75 +160,18 @@
 
 
 /**
- * Post
+ * Posts
  */
 
-.post-header {
-  margin-bottom: $spacing-unit;
-  text-align: center;
-}
-
-.post-title {
-  @include relative-font-size(2.625);
-  letter-spacing: -1px;
-  line-height: 1;
-  @include media-query($on-laptop) {
-    @include relative-font-size(2.25);
+.post-list {
+  margin-left: 0;
+  list-style: none;
+  >li {
+    margin-bottom: $spacing-unit;
   }
 }
 
-.post-content {
-  margin-bottom: $spacing-unit;
-  h2 {
-    @include relative-font-size(1.8);
-    color: $brand-color;
-    font-weight: 600;
-    letter-spacing: -0.5px;
-    @include media-query($on-laptop) {
-      @include relative-font-size(1.6);
-    }
-  }
-  h3 {
-    @include relative-font-size(1.35);
-    font-weight: 500;
-    @include media-query($on-laptop) {
-      @include relative-font-size(1.375);
-    }
-  }
-  h4 {
-    @include relative-font-size(1.1);
-    font-style: italic;
-    @include media-query($on-laptop) {
-      @include relative-font-size(1.0);
-    }
-  }
-  h5 {
-    @include relative-font-size(1.0);
-    font-weight: 500;
-    @include media-query($on-laptop) {
-      @include relative-font-size(1.0);
-    }
-  }
-  .float-left {
-    float: left;
-  }
-  .float-right {
-    float: right;
-    @include media-query($on-palm) {
-      float: left;
-      width: 100%;
-    }
-  }
-  .float-clear {
-    clear: both;
-  }
-}
-
-.post {
-  .portfolio-card {
-    margin: $spacing-unit 10%;
-  }
-  .portfolio-card-overlay {
-    height: 200px;
-  }
+.post-link {
+  display: block;
+  @include relative-font-size(1.5);
 }
