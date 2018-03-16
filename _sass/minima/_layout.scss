@@ -160,6 +160,17 @@
 
 
 /**
+ * Portfolio
+ */
+
+.portfolio {
+  .portfolio-card {
+    visibility: hidden; // Start hidden to avoid ScrollReveal flickering.
+  }
+}
+
+
+/**
  * Posts
  */
 
