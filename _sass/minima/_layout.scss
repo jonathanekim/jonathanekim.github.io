@@ -99,6 +99,14 @@
   }
 }
 
+.page-footer {
+  margin-top: $spacing-unit * 2;
+  text-align: center;
+  .site-logo {
+    margin: $spacing-unit / 2;
+  }
+}
+
 
 /**
  * Portfolios

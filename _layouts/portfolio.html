@@ -19,6 +19,12 @@ layout: default
   <div class="page-content" itemprop="articleBody">
     {{ content }}
   </div>
+
+  <footer class="page-footer">
+    <img class="site-logo" src="{{ "/assets/site-logo.png" | relative_url }}" alt="logo">
+    <a class="page-link" href="{{ "/portfolio/" | relative_link }}"><p>Back to Portfolio</p>
+    </a>
+  </footer>
 </article>
 
 <!-- Add load in animation on scroll. https://github.com/jlmakes/scrollreveal -->
