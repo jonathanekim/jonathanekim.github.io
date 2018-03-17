@@ -152,14 +152,12 @@
 .footer-col-3 {
   display: inline-block;
   vertical-align: top;
-  width: -webkit-calc(25% - (#{$spacing-unit} / 2));
   width: calc(25% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-4 {
   display: inline-block;
   vertical-align: top;
-  width: -webkit-calc(33% - (#{$spacing-unit} / 2));
   width: calc(33% - (#{$spacing-unit} / 2));
 }
 
@@ -167,7 +165,6 @@
   .footer-col-1,
   .footer-col-2,
   .footer-col-3 {
-    width: -webkit-calc(50% - (#{$spacing-unit} / 2));
     width: calc(50% - (#{$spacing-unit} / 2));
   }
 }
@@ -175,7 +172,6 @@
 @include media-query($on-palm) {
   .footer-col {
     float: none;
-    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
     width: calc(100% - (#{$spacing-unit} / 2));
   }
 }
