@@ -8,6 +8,9 @@
 <h4 class="float-right">2017 — Present</h4>
 <div class="float-clear"></div>
 
+{% assign portfolio_selfie_stickers = site.portfolio | where: "permalink", "/portfolio/2017/10/09/selfie-stickers/" | first %}
+{% include portfolio-card.html portfolio=portfolio_selfie_stickers %}
+
 * Finding newer and more expressive ways to communicate.
 
 ### Apple, Inc
