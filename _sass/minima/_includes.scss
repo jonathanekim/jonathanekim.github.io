@@ -246,6 +246,66 @@ a.page-link {
 
 
 /**
+ * Background Color Change
+ */
+
+%site-header-inverted {
+  .site-header {
+    a.page-link.site-title {
+      color: $background-color;
+      &:visited {
+        color: $background-color;
+      }
+      &:hover {
+        color: $brand-color;
+      }
+    }
+    .site-nav {
+      @include media-query($on-palm) {
+        background-color: $header-color;
+        border-color: $background-color;
+        transition: background-color 1s;
+        .menu-icon {
+          >svg path {
+            fill: $background-color;
+          }
+        }
+      }
+    }
+  }
+}
+
+body {
+  transition: background-color 1s;
+  &.color-inverted {
+    background-color: $header-color;
+    @extend %site-header-inverted;
+    #home-screen-jonathankim {
+      .portrait-photo {
+        opacity: 1;
+      }
+    }
+    #home-screen-developer .home-sample-container {
+      opacity: 0;
+    }
+  }
+  &.color-brand {
+    background-color: $brand-color;
+    @extend %site-header-inverted;
+    a {
+      color: $background-color;
+      &:visited {
+        color: $background-color;
+      }
+    }
+    #home-screen-developer .home-sample-container {
+      opacity: 0;
+    }
+  }
+}
+
+
+/**
  * Wrapper
  */
 
@@ -258,16 +318,36 @@ a.page-link {
 
 
 /**
+ * Full Screen
+ */
+
+.screen-full {
+  height: calc(110vh - 50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/**
  * Intro content
  */
 
 .page-intro {
-  @include relative-font-size(2.4);
-  padding: 15% 10px;
+  @include relative-font-size(1.8);
+  padding: 10% 3%;
+  margin: 0;
   font-weight: 600;
   letter-spacing: 0.5px;
   text-align: center;
   animation: fadein 2s;
+  a {
+    text-decoration: underline;
+    &:visited {
+      color: $brand-color;
+    }
+  }
 }
 
 @keyframes fadein {

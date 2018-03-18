@@ -1,10 +1,72 @@
 ---
 layout: default
 ---
-{% include intro.html title=page.intro %}
 
 <div class="home">
+  <div class="screen-full" id="home-screen-jonathankim">
+    <img class="portrait-photo" src="{{ "/assets/home/portrait-photo.jpg" | relative_url }}" alt="portrait photo">
+    <h1 class="page-intro">Developer. Designer. Philomath.</h1>
+  </div>
 
-  {{ content }}
+  <div class="screen-full" id="home-screen-developer">
+    <!-- <h1 class="home-screen-sidebar">{{ "Developer" | upcase }}</h1> -->
+    <div class="home-sample-container">
+      <img class="sample" src="{{ "/assets/home/Google__G__Logo.svg" | relative_url }}" alt="Google logo">
+      <img class="sample" src="{{ "/assets/home/Apple_logo_black.svg" | relative_url }}" alt="Apple logo">
+      <img class="sample" src="{{ "/portfolio/2015/The-Simple-Group/Logo4.png" | relative_url }}" alt="The Simple Group logo">
+    </div>
+    <h1 class="page-intro">
+      I'm a <a href="{{ "resume#experience" | relative_url}}"><strong>software engineer</strong></a> proficient at iOS, macOS, and web development.
+    </h1>
+    <div class="home-sample-container">
+      <img class="sample" src="{{ "/assets/home/sunn-home-logo-gray-01.png" | relative_url }}" alt="Sunn logo">
+      <img class="sample" src="{{ "/assets/home/DSP_Concepts_Logo.jpg" | relative_url }}" alt="DSP Concepts logo">
+      <img class="sample" src="{{ "/assets/home/Cornell_University_seal.svg" | relative_url }}" alt="Cornell University logo">
+    </div>
+  </div>
+
+  <div class="screen-full" id="home-screen-designer">
+    <h1 class="page-intro">
+      I'm a <a href="{{ "portfolio" | relative_url}}"><strong>UI designer</strong></a> experienced with wireframing, prototyping, and branding.
+    </h1>
+    <div class="home-sample-container">
+        <img class="sample" src="{{ "/portfolio/2013/Sunn/Sunn%20Wireframe1.png" | relative_url }}" alt="Sunn wireframe">
+        <img class="sample" src="{{ "/portfolio/2015/The-Simple-Group/WebsiteRebrand1.png" | relative_url }}" alt="The Simple Group website">
+        <div class="sample">
+          <img src="{{ "/portfolio/2013/Emmaus-Road/Emmaus-Logo.png" | relative_url }}" alt="Emmaus Road logo">
+        </div>
+    </div>
+  </div>
+
+  <div class="screen-full" id="home-screen-activities">
+    <h1 class="page-intro">
+      My <a href="{{ "resume#activities" | relative_url}}"><strong>hobbies</strong></a> include cello, reading, soccer, badminton, and gaming.
+    </h1>
+  </div>
 
 </div>
+
+<!-- https://github.com/janpaepke/ScrollMagic -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+  var controller = new ScrollMagic.Controller();
+
+  // Jonathan Kim Scene
+  new ScrollMagic.Scene({
+    triggerElement: "#home-screen-jonathankim",
+    // triggerHook: "onEnter",
+    duration: "80%",
+  })
+  .addIndicators()
+  .setClassToggle("body", "color-inverted")
+  .addTo(controller);
+
+  // Designer Scene
+  new ScrollMagic.Scene({
+    triggerElement: "#home-screen-designer",
+    duration: "100%",
+  })
+  .addIndicators()
+  .setClassToggle("body", "color-brand")
+  .addTo(controller);
+</script>
