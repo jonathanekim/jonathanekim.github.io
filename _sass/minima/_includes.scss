@@ -2,11 +2,11 @@
  * Header
  */
 
-$site-header-height: 50px;
+$site-header-height: 60px;
 .site-header {
   .wrapper {
     height: $site-header-height;
-    margin: 0 auto;
+    margin-top: 0;
     display: flex;
     align-items: center;
     a.page-link.site-title {
@@ -14,7 +14,6 @@ $site-header-height: 50px;
       color: $header-color;
       font-weight: 600;
       letter-spacing: 1px;
-      padding-top: 4px;
       &:visited {
         color: $header-color;
       }
@@ -39,11 +38,12 @@ $site-header-height: 50px;
       }
       @include media-query($on-palm) {
         $nav-size: 36px;
+        $border-width: 1px;
         position: absolute;
-        top: calc((#{$site-header-height} - #{$nav-size}) / 2);
-        right: calc((#{$site-header-height} - #{$nav-size}) / 2);
+        top: calc((#{$site-header-height} - #{$nav-size} - #{$border-width} * 2) / 2);
+        right: calc((#{$site-header-height} - #{$nav-size} - #{$border-width} * 2) / 2);
         background-color: $background-color;
-        border: 1px solid $grey-color-light;
+        border: $border-width solid $grey-color-light;
         border-radius: 5px;
         text-align: right;
         label[for="nav-trigger"] {
