@@ -9,18 +9,20 @@ $header-height: 10vh;
   .wrapper {
     display: flex;
     align-items: center;
-    .site-title {
+    a.page-link.site-title {
       @include relative-font-size(1.5);
-      flex-grow: 1;
       color: $header-color;
       font-weight: 600;
       letter-spacing: 1px;
-      &:hover {
-        color: $brand-color;
-      }
       &:visited {
         color: $header-color;
       }
+      &:hover {
+        color: $brand-color;
+      }
+    }
+    .site-header-spacer {
+      flex-grow: 1;
     }
     .site-nav {
       .nav-trigger,
