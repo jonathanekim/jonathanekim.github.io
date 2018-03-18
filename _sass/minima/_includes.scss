@@ -2,9 +2,9 @@
  * Header
  */
 
-$header-height: 10vh;
+$site-header-height: 10vh;
 .site-header {
-  height: $header-height;
+  height: $site-header-height;
   line-height: $base-line-height * $base-font-size * 2.25;
   .wrapper {
     display: flex;
@@ -39,8 +39,8 @@ $header-height: 10vh;
       @include media-query($on-palm) {
         $nav-size: 36px;
         position: absolute;
-        top: calc((#{$header-height} - #{$nav-size}) / 2);
-        right: calc((#{$header-height} - #{$nav-size}) / 2);
+        top: calc((#{$site-header-height} - #{$nav-size}) / 2);
+        right: calc((#{$site-header-height} - #{$nav-size}) / 2);
         background-color: $background-color;
         border: 1px solid $grey-color-light;
         border-radius: 5px;
