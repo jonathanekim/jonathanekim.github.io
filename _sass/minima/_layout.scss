@@ -144,43 +144,15 @@
  */
 
 .portfolios {
+  .col {
+    text-align: center;
+  }
   .portfolio-card {
     margin: 5px;
     visibility: hidden; // Start hidden to avoid ScrollReveal flickering.
   }
   .portfolio-card-overlay {
     height: 200px;
-  }
-}
-
-.portfolio-col-wrapper {
-  // @include relative-font-size(0.9375);
-  text-align: center;
-  @extend %clearfix;
-}
-
-.portfolio-col-3 {
-  display: inline-block;
-  vertical-align: top;
-  width: calc(25% - (#{$spacing-unit} / 2));
-}
-
-.portfolio-col-4 {
-  display: inline-block;
-  vertical-align: top;
-  width: calc(33% - (#{$spacing-unit} / 2));
-}
-
-.portfolio-col-6 {
-  display: inline-block;
-  vertical-align: top;
-  width: calc(50% - (#{$spacing-unit} / 2));
-}
-
-@include media-query($on-palm) {
-  .portfolio-col {
-    float: none;
-    width: calc(100% - (#{$spacing-unit} / 2));
   }
 }
 

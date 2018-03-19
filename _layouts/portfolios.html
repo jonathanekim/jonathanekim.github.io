@@ -9,9 +9,9 @@ layout: default
 
   {{ content }}
 
-  <div class="portfolio-col-wrapper">
+  <div class="col-wrapper">
     {% for portfolio in site.portfolio reversed %}
-    <div class="portfolio-col portfolio-col-6">
+    <div class="col col-6">
       {% include portfolio-card.html portfolio=portfolio %}
     </div>
     {% endfor %}
