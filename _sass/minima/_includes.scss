@@ -249,6 +249,7 @@ body {
     #home-screen-jonathankim {
       .portrait-photo {
         opacity: 1;
+        animation: delayedfadein 2s;
       }
     }
     #home-screen-developer .home-sample-container {

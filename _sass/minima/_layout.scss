@@ -8,14 +8,13 @@
     .portrait-photo {
       max-height: 70vh;
       opacity: 0; // Only show when the background is inverted.
-      transition: opacity 0.8s;
     }
     .page-intro {
       @include relative-font-size(2.2);
       position: absolute;
       top: 45%;
       color: $background-color;
-      animation: delayedfadein 2s;
+      animation: delayedfadein 3s;
     }
   }
   .home-sample-container {
