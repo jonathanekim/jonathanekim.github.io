@@ -32,6 +32,9 @@ header_pages:
 collections:
   portfolio:
     output: true
+  posts:
+    output: true
+    permalink: /:year/:month/:day/:title/
 
 # Build settings
 markdown: kramdown
