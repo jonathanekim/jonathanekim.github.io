@@ -79,11 +79,11 @@ layout: default
   // Developer Scene
   var developerTween = TweenMax.staggerFrom("#home-screen-developer .sample", 0.3, {
     cycle: {
-      x: [-20, 0, 20, -20, 0, 20],
-      y: [-20, -20, -20, 20, 20, 20]
+      x: [20, 0, -20, 20, 0, -20],
+      y: [20, 20, 20, -20, -20, -20],
     },
     opacity: 0
-  }, 0);
+  }, 0.05);
   new ScrollMagic.Scene({
     triggerElement: "#home-screen-developer .page-intro",
     duration: 0,
@@ -103,11 +103,10 @@ layout: default
   // Designer Scene
   var designerTween = TweenMax.staggerFrom("#home-screen-designer .sample", 0.3, {
     cycle: {
-      x: [-20, 0, 20],
-      y: [20, 20, 20]
+      x: [20, 20, 20],
     },
     opacity: 0
-  }, 0);
+  }, 0.1);
   new ScrollMagic.Scene({
     triggerElement: "#home-screen-designer .page-intro",
     duration: 0,
@@ -119,11 +118,11 @@ layout: default
     // Activities Scene
     var activitiesTween = TweenMax.staggerFrom("#home-screen-activities .sample", 0.3, {
     cycle: {
-      x: [-20, 0, 20, -20, 0, 20],
-      y: [-20, -20, -20, 20, 20, 20]
+      x: [20, 0, -20, 20, 0, -20],
+      y: [20, 20, 20, -20, -20, -20],
     },
     opacity: 0
-  }, 0);
+  }, 0.05);
   new ScrollMagic.Scene({
     triggerElement: "#home-screen-activities .page-intro",
     duration: 0,
