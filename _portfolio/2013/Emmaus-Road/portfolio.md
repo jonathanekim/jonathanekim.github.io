@@ -7,9 +7,11 @@ image_path: /portfolio/2013/Emmaus-Road/portfolio-card.png
 categories: graphic-design ui-design web-development
 ---
 
+I designed the name, branding, and website for a local church (KCCE, Korean Church at Cornell English). I also developed a website for the church.
+
 ## Branding
 
-I designed a logo for Emmaus Road, a local church. Initial iterations of the logo symbolized roads, but then I thought of an unique "heart on fire" design. The burning heart referenced [Luke 24:32](https://www.biblegateway.com/passage/?search=Luke+24%3A13-35&version=ESV):
+I designed a new name and logo for the church, naming it "Emmaus Road". Initial iterations of the logo symbolized roads, but then I thought of an unique "heart on fire" design. The burning heart referenced [Luke 24:32](https://www.biblegateway.com/passage/?search=Luke+24%3A13-35&version=ESV):
 
 > "Did not our hearts burn within us while he talked to us on the [Emmaus] road, while he opened to us the Scriptures?"
 

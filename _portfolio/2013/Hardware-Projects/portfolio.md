@@ -7,7 +7,7 @@ image_path: /portfolio/2013/Hardware-Projects/portfolio-card.png
 categories: graphic-design
 ---
 
-I created several logos for Cornell hardware projects.
+I created several logos for hardware projects at Cornell. Most of the projects were  of the projects were student-led.
 
 Project Green Station was an idea for a smart, eco-friendly waste disposal unit.
 

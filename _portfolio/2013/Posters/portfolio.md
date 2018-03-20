@@ -7,6 +7,8 @@ image_path: /portfolio/2013/Posters/portfolio-card.png
 categories: graphic-design
 ---
 
+I created a few posters in 2013 that I printed out and either gave as gifts or used for decorating my room.
+
 I created a poster for my sister with my family's motto:
 
 ![Image]({{ "/portfolio/2013/Posters/Kim-Family-Motto.png" | relative_path }}){: .image-centered-full }
