@@ -14,6 +14,7 @@ rbenv install $(rbenv local)
 which -a gem
 gem install bundler
 bundle install
+bundle update --all
 ```
 
 ### Running Local Instance

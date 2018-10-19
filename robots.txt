@@ -1,1 +1,1 @@
-Sitemap: http://jonathank.im/sitemap.xml
+Sitemap: https://jonathank.im/sitemap.xml
