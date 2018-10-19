@@ -11,7 +11,9 @@
 {% assign portfolio_selfie_stickers = site.portfolio | where: "permalink", "/portfolio/2017/10/09/selfie-stickers/" | first %}
 {% include portfolio-card.html portfolio=portfolio_selfie_stickers %}
 
-* Finding newer and more expressive ways to communicate.
+* Improved stability and polish of Hangouts Chat for iOS.
+* Created a library used by Allo and GBoard that generates a sticker pack from a user's selfie using ML.
+* Added innovative ways to edit and collage images in Allo iOS.
 
 ### Apple, Inc
 
@@ -105,31 +107,25 @@
 <h4 class="float-right">December 2014</h4>
 <div class="float-clear"></div>
 
-* Major: Computer Science • GPA: 3.49
+* Major: Computer Science
 * Relevant courses: Human-Computer Interaction Design; Cloud Computing; Evolutionary Algorithms; Operating Systems; Computer Networks; Functional Programming; Computer Graphics; Honors Object-Oriented Design and Data Structures; Security, Privacy, and Information Network Design
 
 ## Skills
 
-* Languages: Objective-C, Java, OCaml, Python, Swift, C/C++, Matlab
+* Languages: Objective-C, Swift, Java, Python, OCaml, C/C++, Matlab
 * Design: Wireframing, Sketch, Illustrator, InDesign, Photoshop
-* Web: HTML, Javascript/Angular.js, Node.js, CSS/Sass, MySQL
-* Platforms: macOS, iOS, UNIX, PhoneGap/Cordova, MIPS
+* Web: HTML, Javascript, Angular.js, Node.js, CSS/Sass, MySQL
+* Platforms: iOS, macOS, UNIX, PhoneGap/Cordova, MIPS
 
 ## Activities
 
-<h4 class="float-left">Competitive Overwatch</h4>
+<h4 class="float-left">Competitive Overwatch Player</h4>
 <h4 class="float-right">2017 — Present</h4>
 <div class="float-clear"></div>
 
-* Maintained the rank of Master (top 3%) since season 7.
-* Participated a Google team in the [After Hours Gaming League](https://www.afterhoursgaming.tv), a corporate esports league.
-* Organized 60 Googlers into 7 [After Hours Gaming League](https://www.afterhoursgaming.tv) teams.
-
-<h4 class="float-left">CoderDojo Mentor</h4>
-<h4 class="float-right">2016 — Present</h4>
-<div class="float-clear"></div>
-
-* Teach kids aged 7 – ­17 how to code in Swift and Python.
+* Maintained the rank of Master (top 3% worldwide) since season 7.
+* Organized over a hundred Googlers into teams for the [After Hours Gaming League](https://www.afterhoursgaming.tv), a corporate esports league, and Googlewatch, an internal Google tournament.
+* Won the AHGL 2018 spring season as a member of Google Feeling Lucky.
 
 <h4 class="float-left">Musician (Cello)</h4>
 <h4 class="float-right">1999 – Present</h4>
@@ -137,6 +133,12 @@
 
 * San Jose Youth Symphony (2004 – 2011), Cornell Symphony Orchestra (2011 – 2012), chamber groups (2012 – 2014), Emmaus Road praise team (2012 – 2014).
 * Formed a band, toured in Florida and California, and recorded originals and covers (Summer 2013).
+
+<h4 class="float-left">CoderDojo Mentor</h4>
+<h4 class="float-right">2016 — 2017</h4>
+<div class="float-clear"></div>
+
+* Teach kids aged 7 – 17 how to code in Swift and Python.
 
 <h4 class="float-left">EVE Online Blogger</h4>
 <h4 class="float-right">2009 – 2011</h4>
