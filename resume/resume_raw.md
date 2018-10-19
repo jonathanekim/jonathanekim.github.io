@@ -11,7 +11,7 @@
 {% assign portfolio_selfie_stickers = site.portfolio | where: "permalink", "/portfolio/2017/10/09/selfie-stickers/" | first %}
 {% include portfolio-card.html portfolio=portfolio_selfie_stickers %}
 
-* Improved stability and polish of Hangouts Chat for iOS.
+* Empowering enterprise communication via Hangouts Chat for iOS.
 * Created a library used by Allo and GBoard that generates a sticker pack from a user's selfie using ML.
 * Added innovative ways to edit and collage images in Allo iOS.
 
@@ -138,7 +138,7 @@
 <h4 class="float-right">2016 — 2017</h4>
 <div class="float-clear"></div>
 
-* Teach kids aged 7 – 17 how to code in Swift and Python.
+* Taught kids aged 7 – 17 how to code in Swift and Python.
 
 <h4 class="float-left">EVE Online Blogger</h4>
 <h4 class="float-right">2009 – 2011</h4>
